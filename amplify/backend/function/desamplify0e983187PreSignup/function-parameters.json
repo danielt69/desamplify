@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "email-filter-allowlist"
+  ],
+  "parentResource": "desamplify0e983187",
+  "functionName": "desamplify0e983187PreSignup",
+  "resourceName": "desamplify0e983187PreSignup",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/triggers/PreSignup",
+  "triggerTemplate": "PreSignup.json.ejs",
+  "triggerEventPath": "PreSignup.event.json",
+  "roleName": "desamplify0e983187PreSignup",
+  "skipEdit": true,
+  "DOMAINALLOWLIST": "webpals.com",
+  "enableCors": false
+}

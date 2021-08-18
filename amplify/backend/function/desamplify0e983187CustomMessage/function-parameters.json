@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "desamplify0e983187",
+  "functionName": "desamplify0e983187CustomMessage",
+  "resourceName": "desamplify0e983187CustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/triggers/CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "desamplify0e983187CustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "https://main.d5h6293ozbt2z.amplifyapp.com/",
+  "EMAILSUBJECT": "Data Entitty Service - 2FA",
+  "EMAILMESSAGE": "Click the following link to authenticate and login:",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}
